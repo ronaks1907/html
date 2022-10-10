@@ -1,0 +1,108 @@
+@media screen and (max-width:1400px) {
+    
+    .banner_section .banner_text {padding-top: 0;}
+    .banner_section .banner_text h1 {font-size: 40px;}
+}
+
+@media screen and (max-width:1200px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {padding: 5px 10px;}
+
+    .banner_section .banner_text {padding-top: 5%;}
+    .banner_section .banner_text h1 {font-size: 36px;}
+    .banner_section .banner_text p br {display: none;}
+
+    .service_section .service_inner .service_img {margin-left: -40%; padding-right: 15px;}
+
+    footer .top_footer .social_media li a {margin-right: 15px;}
+    footer .top_footer .cate_block {padding-left: 50px;}
+    footer .top_footer .links {padding-left: 30px;}
+    footer .top_footer .abt_side ul {flex-direction: column;}
+
+}
+
+@media screen and (max-width:992px) {
+
+    header {background-color: #01b0f1;}
+    .navbar-expand-lg .navbar-nav .nav-link {color: #01b0f1;}
+    .navbar-toggler-icon {display: flex; align-items: center; justify-content: flex-end;}
+
+    .navbar-expand-lg .navbar-nav {align-items: flex-start;}
+    .navbar-toggler {padding-right: 0; line-height: 1.7;}
+    .navbar-expand-lg .navbar-nav {padding: 20px 15px; background-color: #fff; border-radius: 15px;}
+    .navbar-expand-lg .navbar-nav .nav-link::before {display: none;}
+
+    .banner_section {margin-top: 0;}
+    .banner_section .banner_text {width: 100%;}
+    .banner_section .banner_text h1 {font-size: 26px;}
+
+    .service_section .service_inner {flex-direction: column;}
+    .service_section .service_inner .service_img {margin-left: 0; padding: 0 15px;}
+    .service_section .service_inner .service_text {padding: 20px 30px;}
+    .service_section .service_inner .service_text .title {text-align: center;}
+    .service_section .service_inner .service_text .title p {max-width: 100%;}
+
+    .contact_section .contact_form form {margin-top: 0;}
+    footer {padding-top: 275px;}
+    footer .top_footer {padding-bottom: 50px;}
+    footer .top_footer .links {padding-left: 0;}
+    
+    .about_us .service_text {margin-top: 30px;}
+
+    .service_listing_section .service_detail_box {margin-bottom: 20px;}
+    
+
+}
+
+@media screen and (max-width:767px) {
+
+    body {text-align: center;}
+    h2 {font-size: 18px;}
+    .big_blue {min-width: auto; padding: 5px 30px;}
+
+    .navbar {padding-top: 0;}
+    .navbar-expand-lg .navbar-nav .has_dropdown .sub_menu ul li a {text-align: left; line-height: 1.5; font-size: 14px;}
+
+    header .top_header .left_side ul li a {margin-right: 10px;}
+    .banner_section .banner_text h1 {font-size: 18px;}
+    .banner_section {padding: 100px 0;}
+    .our_customers .client_logo ul {padding-left: 0;}
+    .service_section .service_inner .service_text .fileld_block ul {flex-direction: column;}
+    .service_section .service_inner .service_text .fileld_block ul li {width: 100%;}
+
+    .banner_text ul {flex-wrap: wrap;}
+    /* .service_section .service_text {margin-top: 30px;} */
+
+    .service_section .service_text .fileld_block ul {margin-top: 30px;}
+
+    .service_section .service_text .fileld_block ul {flex-direction: column;}
+    .service_section .service_text .fileld_block ul li {width: 100%; margin: 20px 0; padding: 0;}
+
+    .contact_section .object_img {top: 0; width: 150%;}
+    .contact_section .contact_form form {padding: 20px;}
+
+    footer h3 {margin-bottom: 15px;}
+    footer .top_footer .col-12 {margin-bottom: 30px;}
+    footer .top_footer .social_media {justify-content: center;}
+    footer .top_footer .social_media li a {margin: 0 10px;}
+
+
+    .service_listing_section .service_detail_box {text-align: left;}
+    .service_listing_section .service_detail_box .top_part {flex-direction: column;}
+
+    .service_listing_section .service_detail_box .left_side ,
+     .service_listing_section .service_detail_box .right_side {
+        width: 100%;
+        padding: 0;
+    }
+    .service_listing_section .action_list ul li .btn ,
+    .service_listing_section .service_detail_box .action_list ul li {width: 100%; margin-right: 0;}
+    .service_listing_section .service_detail_box .wallet_info .info {flex-direction: column; align-items: flex-start;}
+    .service_listing_section .service_detail_box .balance {margin-bottom: 15px;}
+
+    .step_form {text-align: left;}
+    .bread_crumb {min-height: 150px;}
+    .service_listing_section {padding-top: 50px;}
+    footer.footer_secong {padding-top: 50px;}
+
+}
